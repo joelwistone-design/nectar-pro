@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial,sans-serif;
+    background:yellow;
+}
+
+.overlay{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.popup{
+    width:90%;
+    max-width:400px;
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 15px rgba(0,0,0,.3);
+}
+
+.close{
+    float:right;
+    font-size:28px;
+    cursor:pointer;
+}
+
+h1{
+    color:#1a1a1a;
+}
+
+h2{
+    color:#ff6600;
+}
+
+.btn{
+    display:block;
+    text-decoration:none;
+    color:white;
+    padding:14px;
+    margin-top:15px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.register{
+    background:#0066ff;
+}
+
+.download{
+    background:#28a745;
+}
+
+.whatsapp{
+    background:#25D366;
+}
