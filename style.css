@@ -1,59 +1,101 @@
-body{
+*{
     margin:0;
     padding:0;
-    font-family:Arial,sans-serif;
-    background:yellow;
+    box-sizing:border-box;
 }
 
-.overlay{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f5f7fa;
+    color:#333;
 }
 
-.popup{
-    width:90%;
-    max-width:400px;
-    background:#fff;
-    padding:20px;
-    border-radius:15px;
+header{
+    background:linear-gradient(135deg,#ff9800,#ff6f00);
+    color:#fff;
     text-align:center;
-    box-shadow:0 0 15px rgba(0,0,0,.3);
+    padding:40px 20px;
 }
 
-.close{
-    float:right;
-    font-size:28px;
-    cursor:pointer;
+.logo{
+    width:140px;
+    max-width:100%;
+    display:block;
+    margin:0 auto 20px;
 }
 
-h1{
-    color:#1a1a1a;
+header h1{
+    font-size:40px;
+}
+
+.slogan{
+    margin-top:10px;
+    font-size:18px;
+}
+
+section{
+    max-width:1000px;
+    margin:30px auto;
+    padding:20px;
 }
 
 h2{
-    color:#ff6600;
+    color:#ff6f00;
+    margin-bottom:15px;
+    text-align:center;
+}
+
+.card{
+    background:#fff;
+    border-radius:12px;
+    padding:20px;
+    margin:15px 0;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 25px;
+    margin-top:20px;
+    text-decoration:none;
+    color:#fff;
+    background:#25D366;
+    border-radius:40px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    opacity:.9;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#222;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+header h1{
+    font-size:30px;
+}
+
+.logo{
+    width:100px;
+}
+
+section{
+    padding:15px;
 }
 
 .btn{
     display:block;
-    text-decoration:none;
-    color:white;
-    padding:14px;
-    margin-top:15px;
-    border-radius:10px;
-    font-weight:bold;
+    width:100%;
+    text-align:center;
 }
-
-.register{
-    background:#0066ff;
-}
-
-.download{
-    background:#28a745;
-}
-
-.whatsapp{
-    background:#25D366;
-}
+    }
